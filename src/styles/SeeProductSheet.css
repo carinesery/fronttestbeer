@@ -1,0 +1,9 @@
+.seeproductsheet {
+    display: block;
+    width: fit-content;
+    padding: .5rem 1rem;
+    background-color: #926107;/* rgb(161 106 7);*/
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 2rem;
+}

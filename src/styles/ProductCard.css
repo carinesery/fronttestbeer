@@ -1,0 +1,32 @@
+.product-cards-container {
+    width: 100%;
+}
+
+.product-card {
+    width: 240px;
+    height: 360px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    transition: transform 200ms ease;
+
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    /* transform: translateY(-.5rem); */
+}
+
+.name {
+    font-weight: 600;
+}
+
+.category {
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    background-color: antiquewhite;
+}

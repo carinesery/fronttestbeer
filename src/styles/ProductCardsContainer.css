@@ -1,0 +1,6 @@
+.product-cards-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 2rem;
+}
